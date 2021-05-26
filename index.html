@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+ <html style="color:#94B814; background-color:#C21460; padding:25px; border: 10px; margin:25px">
+
+
+<style>
+Centre
+</style>
+
+<!-- notes for learning
+
+Padding is the space the text displays in the element. Padding-top:20px;, padding:25;,(all sides will be 25px) or clockwise manner from top 
+padding:20px 10px 50px 15px; 
+
+Margin is space from outside of the the element to other lements 
+
+Diplay Properties
+Float display; allows the way floats are displayed in relation to other elements. allows element to be floated on different side of the page eg
+style:float:left;
+The text will wrap around the floats element - can be used for home buttons& contact us lists elements
+
+Block element will take entire line of webpage eg paragph
+To prevent this. Use inline display to bring all the elements on one line or display horizontally 
+Style="display:inline:  add this to all the elements to make them display horizontally
+
+W3 school has lots display properties
+
+Positioning
+Html has static position by default. 
+4 types of basic position 
+-Static position is the genaral position shown when no changes is made 
+-Relative position allows element to be position relative from its static position or where it is suppose to be 
+eg style= relative; top:20px left:10px bottom:30px right:15.   the top for example will move 20px away from where it should be. 
+- absolute position; elements position in relative to the html document 
+- Fix position ; change the position relation to the view point or how the webpage is 
+ 
+Font size.  style="front-size:16px"  you can use em or PX. 1em is 16px
+Change front type using style=front-family:arial
+s Tag to Strikethrough
+
+Box-Shadow 
+property takes values for;
+offset-x (how far to push the shadow horizontally from the element),
+offset-y (how far to push the shadow vertically from the element),
+blur-radius,
+spread-radius and
+color, in that order. blur-radius and spread-radius values are optional.
+
+Audio	
+ <p>  <audio controls>  
+    <source src= "https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type= "audio/mpeg">    </audio>
+    </p>
+
+<style> 
+body {colour:green}
+H4 { text-align: justify;}  causes all the H4 text to justify
+ text-transform: uppercase	
+H4 {
+   font-style: 40px
+   }
+H3 {font-weight: 600;} font-weight property sets how thick or thin characters are in a section of text.	
+line-height
+
+a:hover {
+  color: red;
+} 
+
+
+</style>
+
+External file sheet for style/external style sheet
+Write the style code on a separate style sheet.
+The file name must end with .css
+Link the page to the style page
+<link rel="stylesheet" href="style.css">
+
+Classes and ID
+Both do the same thing
+html file can only have 1 ID, html can have many classes
+
+CSS selector - used on the .css to effect change on page (needs revision)
+
+Figcaption & figure tags
+
+figure element and the related figcaption. Used together, these items wrap a visual representation 
+(like an image, diagram, or chart) along with its caption. Wrapping these elements together gives a two-fold 
+accessibility boost by semantically grouping related content and providing a text alternative explaining the figure.
+eg
+<figure>
+  <img src="roundhouseDestruction.jpeg" alt="Photo of Camper Cat executing a roundhouse kick">
+  <br>
+  <figcaption>
+    Master Camper Cat demonstrates proper form of a roundhouse kick.
+  </figcaption>
+</figure>
+
+Date entry - Form
+<label for="input1">Enter a date:</label>
+<input type="date" id="input1" name="input1">
+
+Color whee
+The Complementary Colors challenge showed that opposite colors on the color wheel can make each other appear more vibrant when placed side-by-side. However, the strong visual contrast can be jarring if it's overused on a website, and can sometimes make text harder to read if it's placed on a complementary-colored background. In practice, one of the colors is usually dominant and the complement 
+is used to bring visual attention to certain content on the page.
+
+#anim {
+  animation-name: colorful;
+  animation-duration: 3s;
+}
+
+@keyframes colorful {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+-->
+
+
+  <head>
+    <title>Learning HTML from a Learner's perspective </title>
+    <meta name= "description" content= html learning website>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">  <!-- this allows good mobile display -->
+
+  </head>
+
+  <body>
+   <style>
+   {
+  color:#94B814;
+   } 
+   </style>
+    <header>
+     <h1> Learning HTML </h1> 
+      <img width="100px" height="100px" src="learn.jpg" alt="man looking at screen">
+      <hr> <hr>
+      </br> 
+     <h2 style="color:#94B814; float:top">  The best way to <big><b><i> learn html </b></i></big></h2>     
+     </header>
+     <main>
+      <ul>
+      <li> <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank"><p> Use <b><big><i> Cheat Sheet </b></big></i></p> </li>
+      <li> <a href="https://www.freecodecamp.org/" target="_blank"><p> <b><big><i>Feecodecamp </b></big></i> website is helpful as a way to begin </p></a></li>    
+      <li> <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg" target="_blank"><p> Educative <b><big><i> youtube videos </b></big></i></p></a> </li>
+      <li> <iframe width="300" height="100" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </li>
+      <li> <a href="https://twitter.com/_100DaysOfCode" target="_blank"><p> Twitter - <b><big><i>100daysofcode </b></big></i>for commitment to daily practice</p></a> </li>
+      <li> <a href="https://www.codecademy.com/resources/cheatsheets/all" target="_blank"><p> <b><big><i>Code Academy Cheat Sheet</b></big></i> contains brief summary and useful information </p></a></li>
+      <li> <a href="https://www.w3schools.com/colors/colors_groups.asp" target="_blank"><p> <b><i><big>W3School </b></i></big>contains all the <b><i><big>color codes and free lessons</b></i></big><p></a></li>
+      <!-- this is how to make sure this comments does not appear. /-->     
+      </ul>
+     <hr>
+     <br>
+     </main>
+    <footer>
+     <a> <i><small><b>&copycopyright 2021 Abi </i></small></b></a> 
+     </footer>
+      
+  </body>
+
+
+
+
+
+</html>
+
